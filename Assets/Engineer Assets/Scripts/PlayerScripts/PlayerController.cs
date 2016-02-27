@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        GameObject.DontDestroyOnLoad(this);
         //  Cache Components
         pMovement = GetComponent<PlayerMovement>();
         mouseLook = GetComponent<MouseLook>();
