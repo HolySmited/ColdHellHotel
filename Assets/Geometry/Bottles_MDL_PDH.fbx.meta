@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 3ee25a51638e7ad4889b0deaced639ec
+timeCreated: 1453835264
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BeerBottle1_MDL_UTD
+    100002: //RootNode
+    100004: MerlotBottle_MDL_utd
+    100006: ScotchBottle_MDL_utd
+    100008: transform1
+    100010: transform10
+    100012: transform11
+    100014: transform12
+    100016: transform13
+    100018: transform14
+    100020: transform15
+    100022: transform16
+    100024: transform2
+    100026: transform3
+    100028: transform4
+    100030: transform5
+    100032: transform6
+    100034: transform7
+    100036: transform8
+    100038: transform9
+    100040: WineBottle1_MDL_utd
+    100042: WineBottle1_MDL_utd1
+    100044: WineBottle1_MDL_utd10
+    100046: WineBottle1_MDL_utd11
+    100048: WineBottle1_MDL_utd12
+    100050: WineBottle1_MDL_utd13
+    100052: WineBottle1_MDL_utd14
+    100054: WineBottle1_MDL_utd15
+    100056: WineBottle1_MDL_utd16
+    100058: WineBottle1_MDL_utd2
+    100060: WineBottle1_MDL_utd3
+    100062: WineBottle1_MDL_utd4
+    100064: WineBottle1_MDL_utd5
+    100066: WineBottle1_MDL_utd6
+    100068: WineBottle1_MDL_utd7
+    100070: WineBottle1_MDL_utd8
+    100072: WineBottle1_MDL_utd9
+    100074: WineBottle2_MDL_utd
+    400000: BeerBottle1_MDL_UTD
+    400002: //RootNode
+    400004: MerlotBottle_MDL_utd
+    400006: ScotchBottle_MDL_utd
+    400008: transform1
+    400010: transform10
+    400012: transform11
+    400014: transform12
+    400016: transform13
+    400018: transform14
+    400020: transform15
+    400022: transform16
+    400024: transform2
+    400026: transform3
+    400028: transform4
+    400030: transform5
+    400032: transform6
+    400034: transform7
+    400036: transform8
+    400038: transform9
+    400040: WineBottle1_MDL_utd
+    400042: WineBottle1_MDL_utd1
+    400044: WineBottle1_MDL_utd10
+    400046: WineBottle1_MDL_utd11
+    400048: WineBottle1_MDL_utd12
+    400050: WineBottle1_MDL_utd13
+    400052: WineBottle1_MDL_utd14
+    400054: WineBottle1_MDL_utd15
+    400056: WineBottle1_MDL_utd16
+    400058: WineBottle1_MDL_utd2
+    400060: WineBottle1_MDL_utd3
+    400062: WineBottle1_MDL_utd4
+    400064: WineBottle1_MDL_utd5
+    400066: WineBottle1_MDL_utd6
+    400068: WineBottle1_MDL_utd7
+    400070: WineBottle1_MDL_utd8
+    400072: WineBottle1_MDL_utd9
+    400074: WineBottle2_MDL_utd
+    2300000: BeerBottle1_MDL_UTD
+    2300002: MerlotBottle_MDL_utd
+    2300004: ScotchBottle_MDL_utd
+    2300006: WineBottle1_MDL_utd
+    2300008: WineBottle2_MDL_utd
+    3300000: BeerBottle1_MDL_UTD
+    3300002: MerlotBottle_MDL_utd
+    3300004: ScotchBottle_MDL_utd
+    3300006: WineBottle1_MDL_utd
+    3300008: WineBottle2_MDL_utd
+    4300000: MerlotBottle_MDL_utd
+    4300002: WineBottle1_MDL_utd
+    4300004: WineBottle2_MDL_utd
+    4300006: ScotchBottle_MDL_utd
+    4300008: BeerBottle1_MDL_UTD
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

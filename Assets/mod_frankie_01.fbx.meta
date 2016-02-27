@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: e017f222b70aca14e8bb4501bc345669
+timeCreated: 1456081626
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: button_bot
+    100002: button_mid
+    100004: button_top
+    100006: geo_frankie_head
+    100008: //RootNode
+    100010: ZFrankie_BodyClothes:geo_body
+    100012: ZFrankie_BodyClothes:geo_hairFrankie
+    100014: ZFrankie_BodyClothes:geo_l_shoe
+    100016: ZFrankie_BodyClothes:geo_r_shoe
+    100018: ZFrankie_BodyClothes:geo_suit_jacket
+    100020: ZFrankie_BodyClothes:geo_suitPants
+    100022: ZFrankie_BodyClothes:geo_underShirt
+    100024: ZFrankie_BodyClothes:pasted__geo_glassesFrankie
+    100026: ZFrankie_BodyClothes:pasted__geo_l_eye
+    100028: ZFrankie_BodyClothes:pasted__geo_r_eye
+    100030: ZFrankie_BodyClothes:pasted__geo_teeth
+    100032: ZFrankie_BodyClothes:Tie
+    400000: button_bot
+    400002: button_mid
+    400004: button_top
+    400006: geo_frankie_head
+    400008: //RootNode
+    400010: ZFrankie_BodyClothes:geo_body
+    400012: ZFrankie_BodyClothes:geo_hairFrankie
+    400014: ZFrankie_BodyClothes:geo_l_shoe
+    400016: ZFrankie_BodyClothes:geo_r_shoe
+    400018: ZFrankie_BodyClothes:geo_suit_jacket
+    400020: ZFrankie_BodyClothes:geo_suitPants
+    400022: ZFrankie_BodyClothes:geo_underShirt
+    400024: ZFrankie_BodyClothes:pasted__geo_glassesFrankie
+    400026: ZFrankie_BodyClothes:pasted__geo_l_eye
+    400028: ZFrankie_BodyClothes:pasted__geo_r_eye
+    400030: ZFrankie_BodyClothes:pasted__geo_teeth
+    400032: ZFrankie_BodyClothes:Tie
+    2300000: button_bot
+    2300002: button_mid
+    2300004: button_top
+    2300006: geo_frankie_head
+    2300008: ZFrankie_BodyClothes:geo_body
+    2300010: ZFrankie_BodyClothes:geo_hairFrankie
+    2300012: ZFrankie_BodyClothes:geo_l_shoe
+    2300014: ZFrankie_BodyClothes:geo_r_shoe
+    2300016: ZFrankie_BodyClothes:geo_suit_jacket
+    2300018: ZFrankie_BodyClothes:geo_suitPants
+    2300020: ZFrankie_BodyClothes:geo_underShirt
+    2300022: ZFrankie_BodyClothes:pasted__geo_glassesFrankie
+    2300024: ZFrankie_BodyClothes:pasted__geo_l_eye
+    2300026: ZFrankie_BodyClothes:pasted__geo_r_eye
+    2300028: ZFrankie_BodyClothes:pasted__geo_teeth
+    2300030: ZFrankie_BodyClothes:Tie
+    3300000: button_bot
+    3300002: button_mid
+    3300004: button_top
+    3300006: geo_frankie_head
+    3300008: ZFrankie_BodyClothes:geo_body
+    3300010: ZFrankie_BodyClothes:geo_hairFrankie
+    3300012: ZFrankie_BodyClothes:geo_l_shoe
+    3300014: ZFrankie_BodyClothes:geo_r_shoe
+    3300016: ZFrankie_BodyClothes:geo_suit_jacket
+    3300018: ZFrankie_BodyClothes:geo_suitPants
+    3300020: ZFrankie_BodyClothes:geo_underShirt
+    3300022: ZFrankie_BodyClothes:pasted__geo_glassesFrankie
+    3300024: ZFrankie_BodyClothes:pasted__geo_l_eye
+    3300026: ZFrankie_BodyClothes:pasted__geo_r_eye
+    3300028: ZFrankie_BodyClothes:pasted__geo_teeth
+    3300030: ZFrankie_BodyClothes:Tie
+    4300000: ZFrankie_BodyClothes:geo_r_shoe
+    4300002: ZFrankie_BodyClothes:Tie
+    4300004: ZFrankie_BodyClothes:geo_underShirt
+    4300006: ZFrankie_BodyClothes:geo_suitPants
+    4300008: ZFrankie_BodyClothes:pasted__geo_r_eye
+    4300010: ZFrankie_BodyClothes:pasted__geo_teeth
+    4300012: ZFrankie_BodyClothes:pasted__geo_glassesFrankie
+    4300014: ZFrankie_BodyClothes:geo_hairFrankie
+    4300016: ZFrankie_BodyClothes:pasted__geo_l_eye
+    4300018: ZFrankie_BodyClothes:geo_suit_jacket
+    4300020: ZFrankie_BodyClothes:geo_body
+    4300022: ZFrankie_BodyClothes:geo_l_shoe
+    4300024: button_bot
+    4300026: button_mid
+    4300028: button_top
+    4300030: geo_frankie_head
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

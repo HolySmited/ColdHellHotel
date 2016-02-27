@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: 2f41450eee5df0646af1e36b383c0b46
+timeCreated: 1453835264
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bed
+    100002: Bed 1
+    100004: group19
+    100006: group19 1
+    100008: group20
+    100010: group20 1
+    100012: pCube113
+    100014: pCube113 1
+    100016: pCube114
+    100018: pCube114 1
+    100020: pCube115
+    100022: pCube115 1
+    100024: pCube116
+    100026: pCube116 1
+    100028: pCube117
+    100030: pCube117 1
+    100032: pCube118
+    100034: pCube118 1
+    100036: pCube119
+    100038: pCube119 1
+    100040: pCube120
+    100042: pCube120 1
+    100044: pCube121
+    100046: pCube121 1
+    100048: pCube122
+    100050: pCube122 1
+    100052: pCube123
+    100054: pCube123 1
+    100056: pCube124
+    100058: pCube124 1
+    100060: pCube125
+    100062: pCube125 1
+    100064: pCube126
+    100066: pCube126 1
+    100068: pCube127
+    100070: pCube127 1
+    100072: pCylinder5
+    100074: pCylinder5 1
+    100076: pCylinder6
+    100078: pCylinder6 1
+    100080: Pillows
+    100082: Pillows 1
+    100084: polySurface70
+    100086: polySurface70 1
+    100088: polySurface71
+    100090: polySurface71 1
+    100092: polySurface72
+    100094: polySurface72 1
+    100096: polySurface73
+    100098: polySurface73 1
+    100100: polySurface74
+    100102: polySurface74 1
+    100104: polySurface75
+    100106: polySurface76
+    100108: polySurface78
+    100110: polySurface79
+    100112: //RootNode
+    100114: QueenBednoBlanket
+    100116: QueenBedwithBlanket
+    100118: transform10
+    100120: transform5
+    100122: transform6
+    100124: transform7
+    100126: transform9
+    100128: Bed1
+    100130: Bed2
+    100132: group21
+    100134: group22
+    100136: group23
+    100138: group24
+    100140: pCube128
+    100142: pCube129
+    100144: pCube130
+    100146: pCube131
+    100148: pCube132
+    100150: pCube133
+    100152: pCube134
+    100154: pCube135
+    100156: pCube136
+    100158: pCube137
+    100160: pCube138
+    100162: pCube139
+    100164: pCube140
+    100166: pCube141
+    100168: pCube142
+    100170: pCube143
+    100172: pCube144
+    100174: pCube145
+    100176: pCube146
+    100178: pCube147
+    100180: pCube148
+    100182: pCube149
+    100184: pCube150
+    100186: pCube151
+    100188: pCube152
+    100190: pCylinder10
+    100192: pCylinder7
+    100194: pCylinder8
+    100196: pCylinder9
+    100198: polySurface80
+    100200: polySurface81
+    100202: polySurface82
+    100204: polySurface83
+    100206: polySurface84
+    100208: polySurface85
+    100210: polySurface86
+    100212: polySurface87
+    100214: polySurface88
+    100216: polySurface89
+    100218: polySurface90
+    100220: polySurface91
+    100222: polySurface92
+    100224: polySurface93
+    100226: QueenBed_Blanket
+    100228: QueenBed_NoBlanket
+    400000: Bed
+    400002: Bed 1
+    400004: group19
+    400006: group19 1
+    400008: group20
+    400010: group20 1
+    400012: pCube113
+    400014: pCube113 1
+    400016: pCube114
+    400018: pCube114 1
+    400020: pCube115
+    400022: pCube115 1
+    400024: pCube116
+    400026: pCube116 1
+    400028: pCube117
+    400030: pCube117 1
+    400032: pCube118
+    400034: pCube118 1
+    400036: pCube119
+    400038: pCube119 1
+    400040: pCube120
+    400042: pCube120 1
+    400044: pCube121
+    400046: pCube121 1
+    400048: pCube122
+    400050: pCube122 1
+    400052: pCube123
+    400054: pCube123 1
+    400056: pCube124
+    400058: pCube124 1
+    400060: pCube125
+    400062: pCube125 1
+    400064: pCube126
+    400066: pCube126 1
+    400068: pCube127
+    400070: pCube127 1
+    400072: pCylinder5
+    400074: pCylinder5 1
+    400076: pCylinder6
+    400078: pCylinder6 1
+    400080: Pillows
+    400082: Pillows 1
+    400084: polySurface70
+    400086: polySurface70 1
+    400088: polySurface71
+    400090: polySurface71 1
+    400092: polySurface72
+    400094: polySurface72 1
+    400096: polySurface73
+    400098: polySurface73 1
+    400100: polySurface74
+    400102: polySurface74 1
+    400104: polySurface75
+    400106: polySurface76
+    400108: polySurface78
+    400110: polySurface79
+    400112: //RootNode
+    400114: QueenBednoBlanket
+    400116: QueenBedwithBlanket
+    400118: transform10
+    400120: transform5
+    400122: transform6
+    400124: transform7
+    400126: transform9
+    400128: Bed1
+    400130: Bed2
+    400132: group21
+    400134: group22
+    400136: group23
+    400138: group24
+    400140: pCube128
+    400142: pCube129
+    400144: pCube130
+    400146: pCube131
+    400148: pCube132
+    400150: pCube133
+    400152: pCube134
+    400154: pCube135
+    400156: pCube136
+    400158: pCube137
+    400160: pCube138
+    400162: pCube139
+    400164: pCube140
+    400166: pCube141
+    400168: pCube142
+    400170: pCube143
+    400172: pCube144
+    400174: pCube145
+    400176: pCube146
+    400178: pCube147
+    400180: pCube148
+    400182: pCube149
+    400184: pCube150
+    400186: pCube151
+    400188: pCube152
+    400190: pCylinder10
+    400192: pCylinder7
+    400194: pCylinder8
+    400196: pCylinder9
+    400198: polySurface80
+    400200: polySurface81
+    400202: polySurface82
+    400204: polySurface83
+    400206: polySurface84
+    400208: polySurface85
+    400210: polySurface86
+    400212: polySurface87
+    400214: polySurface88
+    400216: polySurface89
+    400218: polySurface90
+    400220: polySurface91
+    400222: polySurface92
+    400224: polySurface93
+    400226: QueenBed_Blanket
+    400228: QueenBed_NoBlanket
+    2300000: Bed
+    2300002: Bed 1
+    2300004: group19
+    2300006: group19 1
+    2300008: group20
+    2300010: group20 1
+    2300012: pCube113
+    2300014: pCube113 1
+    2300016: pCube114
+    2300018: pCube114 1
+    2300020: pCube115
+    2300022: pCube115 1
+    2300024: pCube116
+    2300026: pCube116 1
+    2300028: pCube117
+    2300030: pCube117 1
+    2300032: pCube118
+    2300034: pCube118 1
+    2300036: pCube119
+    2300038: pCube119 1
+    2300040: pCube120
+    2300042: pCube120 1
+    2300044: pCube121
+    2300046: pCube121 1
+    2300048: pCube122
+    2300050: pCube122 1
+    2300052: pCube123 1
+    2300054: pCube126
+    2300056: pCube126 1
+    2300058: pCube127
+    2300060: pCube127 1
+    2300062: pCylinder5
+    2300064: pCylinder5 1
+    2300066: pCylinder6
+    2300068: pCylinder6 1
+    2300070: polySurface70
+    2300072: polySurface70 1
+    2300074: polySurface71
+    2300076: polySurface71 1
+    2300078: polySurface72
+    2300080: polySurface72 1
+    2300082: polySurface73
+    2300084: polySurface73 1
+    2300086: polySurface74
+    2300088: polySurface74 1
+    2300090: polySurface75
+    2300092: polySurface76
+    2300094: polySurface78
+    2300096: polySurface79
+    2300098: Bed1
+    2300100: Bed2
+    2300102: group21
+    2300104: group22
+    2300106: group23
+    2300108: group24
+    2300110: pCube128
+    2300112: pCube129
+    2300114: pCube130
+    2300116: pCube131
+    2300118: pCube132
+    2300120: pCube133
+    2300122: pCube134
+    2300124: pCube135
+    2300126: pCube136
+    2300128: pCube137
+    2300130: pCube138
+    2300132: pCube139
+    2300134: pCube140
+    2300136: pCube141
+    2300138: pCube142
+    2300140: pCube143
+    2300142: pCube144
+    2300144: pCube145
+    2300146: pCube146
+    2300148: pCube147
+    2300150: pCube148
+    2300152: pCube149
+    2300154: pCube150
+    2300156: pCube151
+    2300158: pCube152
+    2300160: pCylinder10
+    2300162: pCylinder7
+    2300164: pCylinder8
+    2300166: pCylinder9
+    2300168: polySurface80
+    2300170: polySurface81
+    2300172: polySurface82
+    2300174: polySurface83
+    2300176: polySurface84
+    2300178: polySurface85
+    2300180: polySurface86
+    2300182: polySurface87
+    2300184: polySurface88
+    2300186: polySurface89
+    2300188: polySurface90
+    2300190: polySurface91
+    2300192: polySurface92
+    2300194: polySurface93
+    3300000: Bed
+    3300002: Bed 1
+    3300004: group19
+    3300006: group19 1
+    3300008: group20
+    3300010: group20 1
+    3300012: pCube113
+    3300014: pCube113 1
+    3300016: pCube114
+    3300018: pCube114 1
+    3300020: pCube115
+    3300022: pCube115 1
+    3300024: pCube116
+    3300026: pCube116 1
+    3300028: pCube117
+    3300030: pCube117 1
+    3300032: pCube118
+    3300034: pCube118 1
+    3300036: pCube119
+    3300038: pCube119 1
+    3300040: pCube120
+    3300042: pCube120 1
+    3300044: pCube121
+    3300046: pCube121 1
+    3300048: pCube122
+    3300050: pCube122 1
+    3300052: pCube123 1
+    3300054: pCube126
+    3300056: pCube126 1
+    3300058: pCube127
+    3300060: pCube127 1
+    3300062: pCylinder5
+    3300064: pCylinder5 1
+    3300066: pCylinder6
+    3300068: pCylinder6 1
+    3300070: polySurface70
+    3300072: polySurface70 1
+    3300074: polySurface71
+    3300076: polySurface71 1
+    3300078: polySurface72
+    3300080: polySurface72 1
+    3300082: polySurface73
+    3300084: polySurface73 1
+    3300086: polySurface74
+    3300088: polySurface74 1
+    3300090: polySurface75
+    3300092: polySurface76
+    3300094: polySurface78
+    3300096: polySurface79
+    3300098: Bed1
+    3300100: Bed2
+    3300102: group21
+    3300104: group22
+    3300106: group23
+    3300108: group24
+    3300110: pCube128
+    3300112: pCube129
+    3300114: pCube130
+    3300116: pCube131
+    3300118: pCube132
+    3300120: pCube133
+    3300122: pCube134
+    3300124: pCube135
+    3300126: pCube136
+    3300128: pCube137
+    3300130: pCube138
+    3300132: pCube139
+    3300134: pCube140
+    3300136: pCube141
+    3300138: pCube142
+    3300140: pCube143
+    3300142: pCube144
+    3300144: pCube145
+    3300146: pCube146
+    3300148: pCube147
+    3300150: pCube148
+    3300152: pCube149
+    3300154: pCube150
+    3300156: pCube151
+    3300158: pCube152
+    3300160: pCylinder10
+    3300162: pCylinder7
+    3300164: pCylinder8
+    3300166: pCylinder9
+    3300168: polySurface80
+    3300170: polySurface81
+    3300172: polySurface82
+    3300174: polySurface83
+    3300176: polySurface84
+    3300178: polySurface85
+    3300180: polySurface86
+    3300182: polySurface87
+    3300184: polySurface88
+    3300186: polySurface89
+    3300188: polySurface90
+    3300190: polySurface91
+    3300192: polySurface92
+    3300194: polySurface93
+    4300000: polySurface70
+    4300002: pCylinder5
+    4300004: pCube113
+    4300006: pCube114
+    4300008: pCube115
+    4300010: pCube116
+    4300012: pCube117
+    4300014: pCube118
+    4300016: polySurface71
+    4300018: pCube119
+    4300020: pCube120
+    4300022: polySurface72
+    4300024: pCylinder6
+    4300026: pCube121
+    4300028: pCube122
+    4300030: pCube123
+    4300032: polySurface73
+    4300034: pCube126
+    4300036: group19
+    4300038: group20
+    4300040: pCube127
+    4300042: polySurface74
+    4300044: polySurface75
+    4300046: polySurface76
+    4300048: Bed
+    4300050: polySurface70
+    4300052: pCylinder5
+    4300054: pCube113
+    4300056: pCube114
+    4300058: pCube115
+    4300060: pCube116
+    4300062: pCube117
+    4300064: pCube118
+    4300066: polySurface71
+    4300068: pCube119
+    4300070: pCube120
+    4300072: polySurface72
+    4300074: pCylinder6
+    4300076: pCube121
+    4300078: pCube122
+    4300080: polySurface73
+    4300082: pCube126
+    4300084: group19
+    4300086: group20
+    4300088: pCube127
+    4300090: polySurface74
+    4300092: polySurface79
+    4300094: polySurface78
+    4300096: Bed
+    4300098: polySurface80
+    4300100: pCylinder7
+    4300102: pCube128
+    4300104: pCube129
+    4300106: pCube130
+    4300108: pCube131
+    4300110: pCube132
+    4300112: pCube133
+    4300114: polySurface81
+    4300116: pCube134
+    4300118: pCube135
+    4300120: polySurface82
+    4300122: pCylinder8
+    4300124: pCube136
+    4300126: pCube137
+    4300128: pCube138
+    4300130: polySurface83
+    4300132: pCube139
+    4300134: group21
+    4300136: group22
+    4300138: pCube140
+    4300140: polySurface84
+    4300142: polySurface85
+    4300144: polySurface86
+    4300146: Bed1
+    4300148: polySurface87
+    4300150: pCylinder9
+    4300152: pCube141
+    4300154: pCube142
+    4300156: pCube143
+    4300158: pCube144
+    4300160: pCube145
+    4300162: pCube146
+    4300164: polySurface88
+    4300166: pCube147
+    4300168: pCube148
+    4300170: polySurface89
+    4300172: pCylinder10
+    4300174: pCube149
+    4300176: pCube150
+    4300178: polySurface90
+    4300180: pCube151
+    4300182: group23
+    4300184: group24
+    4300186: pCube152
+    4300188: polySurface91
+    4300190: polySurface92
+    4300192: polySurface93
+    4300194: Bed2
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

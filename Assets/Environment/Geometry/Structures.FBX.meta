@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 74ae79ba277e78b40b17bc4fe9ea7f24
+timeCreated: 1455653586
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Box010
+    100002: Box011
+    100004: Box012
+    100006: ceiling_2x2_001
+    100008: ceiling_4x1_001
+    100010: ceiling_4x4_001
+    100012: //RootNode
+    100014: wall_3x1_001
+    100016: wall_3x2_001
+    100018: wall_3x4_001
+    100020: wall_4x2_001
+    100022: wall_4x4_002
+    100024: wallTrim_1x2_001
+    100026: wallTrim_1x2_002
+    100028: floor_2x2_001
+    100030: floor_4x1_001
+    100032: floor_4x4_001
+    100034: wall_4x4_001
+    100036: wallTrim_1x2_001 1
+    100038: wall_2x2_002
+    100040: wall_3x2_002
+    100042: doorWall_3x2_001
+    100044: wallDoorTrim_001
+    100046: ceiling_4x3_003
+    100048: wallTrim2_2m_001
+    100050: wallTrim2_4m_001
+    100052: cornerWallTrim3_2m_002
+    100054: wallTrim3_2m_001
+    100056: wallTrim3_4m_001
+    400000: Box010
+    400002: Box011
+    400004: Box012
+    400006: ceiling_2x2_001
+    400008: ceiling_4x1_001
+    400010: ceiling_4x4_001
+    400012: //RootNode
+    400014: wall_3x1_001
+    400016: wall_3x2_001
+    400018: wall_3x4_001
+    400020: wall_4x2_001
+    400022: wall_4x4_002
+    400024: wallTrim_1x2_001
+    400026: wallTrim_1x2_002
+    400028: floor_2x2_001
+    400030: floor_4x1_001
+    400032: floor_4x4_001
+    400034: wall_4x4_001
+    400036: wallTrim_1x2_001 1
+    400038: wall_2x2_002
+    400040: wall_3x2_002
+    400042: doorWall_3x2_001
+    400044: wallDoorTrim_001
+    400046: ceiling_4x3_003
+    400048: wallTrim2_2m_001
+    400050: wallTrim2_4m_001
+    400052: cornerWallTrim3_2m_002
+    400054: wallTrim3_2m_001
+    400056: wallTrim3_4m_001
+    2300000: Box010
+    2300002: Box011
+    2300004: Box012
+    2300006: ceiling_2x2_001
+    2300008: ceiling_4x1_001
+    2300010: ceiling_4x4_001
+    2300012: wall_3x1_001
+    2300014: wall_3x2_001
+    2300016: wall_3x4_001
+    2300018: wall_4x2_001
+    2300020: wall_4x4_002
+    2300022: wallTrim_1x2_001
+    2300024: wallTrim_1x2_002
+    2300026: floor_2x2_001
+    2300028: floor_4x1_001
+    2300030: floor_4x4_001
+    2300032: wall_4x4_001
+    2300034: wallTrim_1x2_001 1
+    2300036: wall_2x2_002
+    2300038: wall_3x2_002
+    2300040: doorWall_3x2_001
+    2300042: wallDoorTrim_001
+    2300044: ceiling_4x3_003
+    2300046: wallTrim2_2m_001
+    2300048: wallTrim2_4m_001
+    2300050: cornerWallTrim3_2m_002
+    2300052: wallTrim3_2m_001
+    2300054: wallTrim3_4m_001
+    3300000: Box010
+    3300002: Box011
+    3300004: Box012
+    3300006: ceiling_2x2_001
+    3300008: ceiling_4x1_001
+    3300010: ceiling_4x4_001
+    3300012: wall_3x1_001
+    3300014: wall_3x2_001
+    3300016: wall_3x4_001
+    3300018: wall_4x2_001
+    3300020: wall_4x4_002
+    3300022: wallTrim_1x2_001
+    3300024: wallTrim_1x2_002
+    3300026: floor_2x2_001
+    3300028: floor_4x1_001
+    3300030: floor_4x4_001
+    3300032: wall_4x4_001
+    3300034: wallTrim_1x2_001 1
+    3300036: wall_2x2_002
+    3300038: wall_3x2_002
+    3300040: doorWall_3x2_001
+    3300042: wallDoorTrim_001
+    3300044: ceiling_4x3_003
+    3300046: wallTrim2_2m_001
+    3300048: wallTrim2_4m_001
+    3300050: cornerWallTrim3_2m_002
+    3300052: wallTrim3_2m_001
+    3300054: wallTrim3_4m_001
+    4300000: wallTrim_1x2_001
+    4300002: wall_4x2_001
+    4300004: wall_4x4_002
+    4300006: wall_3x4_001
+    4300008: wall_3x2_001
+    4300010: wall_3x1_001
+    4300012: wallTrim_1x2_002
+    4300014: Box010
+    4300016: Box011
+    4300018: Box012
+    4300020: ceiling_4x4_001
+    4300022: ceiling_4x1_001
+    4300024: ceiling_2x2_001
+    4300026: wall_4x4_001
+    4300028: wallTrim_1x2_001
+    4300030: floor_2x2_001
+    4300032: floor_4x1_001
+    4300034: floor_4x4_001
+    4300036: wall_2x2_002
+    4300038: wall_3x2_002
+    4300040: doorWall_3x2_001
+    4300042: wallDoorTrim_001
+    4300044: ceiling_4x3_003
+    4300046: wallTrim2_4m_001
+    4300048: wallTrim2_2m_001
+    4300050: wallTrim3_4m_001
+    4300052: wallTrim3_2m_001
+    4300054: cornerWallTrim3_2m_002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

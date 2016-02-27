@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_JB_MasterSky
+  m_Shader: {fileID: 4800000, guid: 21a51eff962d9c04eb7851e2b486997e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Clouds_1
+        second:
+          m_Texture: {fileID: 2800000, guid: 7bbdd3c7df9f23840ab0d8252b797174, type: 3}
+          m_Scale: {x: 2, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Clouds_2
+        second:
+          m_Texture: {fileID: 2800000, guid: 7bbdd3c7df9f23840ab0d8252b797174, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Clouds_3
+        second:
+          m_Texture: {fileID: 2800000, guid: 6acbd44cbc2bcd8498423591c46ece4c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Sun
+        second:
+          m_Texture: {fileID: 2800000, guid: e062d528090b6a94598654160b244236, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_4449
+        second:
+          m_Texture: {fileID: 2800000, guid: 6acbd44cbc2bcd8498423591c46ece4c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_3722
+        second:
+          m_Texture: {fileID: 2800000, guid: 7bbdd3c7df9f23840ab0d8252b797174, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Landscape
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_8484
+        second:
+          m_Texture: {fileID: 2800000, guid: 74268c45018c3aa43aa8ad4a771879fa, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LandScape
+        second:
+          m_Texture: {fileID: 2800000, guid: 74268c45018c3aa43aa8ad4a771879fa, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Clouds_2_Nrm
+        second:
+          m_Texture: {fileID: 2800000, guid: c2115620acb1aa04593dd6c7ac7c71d6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _StarsTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 09678d95293fb4d44bed9284815679ec, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: .5
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _EmissionScaleUI
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _SkyBrightness
+        second: .5
+      data:
+        first:
+          name: _StormCloudsNeedswork
+        second: 0
+      data:
+        first:
+          name: _CloudsNotFunctional
+        second: .5
+      data:
+        first:
+          name: _CloudBrightnessNotFunctional
+        second: 1
+      data:
+        first:
+          name: _CloudDarknessNotFunctional
+        second: .0500000007
+      data:
+        first:
+          name: _rimFallOffNotFunctional
+        second: 10
+      data:
+        first:
+          name: _RimBrightnessNotFunctional
+        second: 2
+      data:
+        first:
+          name: _Desaturation
+        second: 0
+      data:
+        first:
+          name: _Stars
+        second: 0
+      data:
+        first:
+          name: _StormClouds
+        second: 0
+      data:
+        first:
+          name: _Clouds
+        second: .5
+      data:
+        first:
+          name: _rimFallOff
+        second: 10
+      data:
+        first:
+          name: _RimBrightness
+        second: 2
+      data:
+        first:
+          name: _CloudDarkness
+        second: .0500000007
+      data:
+        first:
+          name: _CloudBrightness
+        second: 1
+      data:
+        first:
+          name: _Transparancey
+        second: 0
+      data:
+        first:
+          name: _HorizionBrightNess
+        second: 3.5
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _EmissionColorUI
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ZenithColor
+        second: {r: .0535377637, g: .0333044976, b: .20588237, a: 1}
+      data:
+        first:
+          name: _HorizonColor
+        second: {r: .18275857, g: 0, b: .5, a: 1}
+      data:
+        first:
+          name: _HorizonColorNight
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _ZenithColorNight
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _HorizionColor
+        second: {r: .977941155, g: .505831599, b: 0, a: 1}
+      data:
+        first:
+          name: _CloudColor
+        second: {r: .45588237, g: .45588237, b: .45588237, a: 1}

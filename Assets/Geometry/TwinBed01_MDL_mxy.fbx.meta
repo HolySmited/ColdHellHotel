@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: d4c43f82b4bd0764e9b54bfefbf49578
+timeCreated: 1453835267
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bed
+    100002: Billow
+    100004: Blanket
+    100006: group15
+    100008: group15 1
+    100010: group16
+    100012: group16 1
+    100014: group17
+    100016: group17 1
+    100018: group18
+    100020: group18 1
+    100022: pCube102
+    100024: pCube102 1
+    100026: pCube103
+    100028: pCube103 1
+    100030: pCube104
+    100032: pCube104 1
+    100034: pCube105
+    100036: pCube105 1
+    100038: pCube106
+    100040: pCube106 1
+    100042: pCube107
+    100044: pCube107 1
+    100046: pCube108
+    100048: pCube108 1
+    100050: pCube109
+    100052: pCube109 1
+    100054: pCube110
+    100056: pCube110 1
+    100058: pCube111
+    100060: pCube111 1
+    100062: Pillow
+    100064: polySurface62
+    100066: polySurface62 1
+    100068: polySurface63
+    100070: polySurface63 1
+    100072: polySurface64
+    100074: polySurface64 1
+    100076: polySurface65
+    100078: polySurface65 1
+    100080: polySurface66
+    100082: polySurface66 1
+    100084: polySurface67
+    100086: polySurface67 1
+    100088: polySurface68
+    100090: polySurface68 1
+    100092: polySurface69
+    100094: transform1
+    100096: transform2
+    100098: transform3
+    100100: transform4
+    100102: Twin_Bed_Blanket
+    100104: Twin_Bed_NoBlanket
+    100106: //RootNode
+    100108: Bed1
+    100110: Billow1
+    100112: Blanket1
+    100114: group19
+    100116: group20
+    100118: group21
+    100120: group22
+    100122: group23
+    100124: group24
+    100126: group25
+    100128: group26
+    100130: pCube112
+    100132: pCube113
+    100134: pCube114
+    100136: pCube115
+    100138: pCube116
+    100140: pCube117
+    100142: pCube118
+    100144: pCube119
+    100146: pCube120
+    100148: pCube121
+    100150: pCube122
+    100152: pCube123
+    100154: pCube124
+    100156: pCube125
+    100158: pCube126
+    100160: pCube127
+    100162: pCube128
+    100164: Pillow1
+    100166: polySurface70
+    100168: polySurface71
+    100170: polySurface72
+    100172: polySurface73
+    100174: polySurface74
+    100176: polySurface75
+    100178: polySurface76
+    100180: polySurface77
+    100182: polySurface78
+    100184: polySurface79
+    100186: polySurface80
+    100188: polySurface81
+    100190: polySurface82
+    100192: polySurface83
+    400000: Bed
+    400002: Billow
+    400004: Blanket
+    400006: group15
+    400008: group15 1
+    400010: group16
+    400012: group16 1
+    400014: group17
+    400016: group17 1
+    400018: group18
+    400020: group18 1
+    400022: pCube102
+    400024: pCube102 1
+    400026: pCube103
+    400028: pCube103 1
+    400030: pCube104
+    400032: pCube104 1
+    400034: pCube105
+    400036: pCube105 1
+    400038: pCube106
+    400040: pCube106 1
+    400042: pCube107
+    400044: pCube107 1
+    400046: pCube108
+    400048: pCube108 1
+    400050: pCube109
+    400052: pCube109 1
+    400054: pCube110
+    400056: pCube110 1
+    400058: pCube111
+    400060: pCube111 1
+    400062: Pillow
+    400064: polySurface62
+    400066: polySurface62 1
+    400068: polySurface63
+    400070: polySurface63 1
+    400072: polySurface64
+    400074: polySurface64 1
+    400076: polySurface65
+    400078: polySurface65 1
+    400080: polySurface66
+    400082: polySurface66 1
+    400084: polySurface67
+    400086: polySurface67 1
+    400088: polySurface68
+    400090: polySurface68 1
+    400092: polySurface69
+    400094: transform1
+    400096: transform2
+    400098: transform3
+    400100: transform4
+    400102: Twin_Bed_Blanket
+    400104: Twin_Bed_NoBlanket
+    400106: //RootNode
+    400108: Bed1
+    400110: Billow1
+    400112: Blanket1
+    400114: group19
+    400116: group20
+    400118: group21
+    400120: group22
+    400122: group23
+    400124: group24
+    400126: group25
+    400128: group26
+    400130: pCube112
+    400132: pCube113
+    400134: pCube114
+    400136: pCube115
+    400138: pCube116
+    400140: pCube117
+    400142: pCube118
+    400144: pCube119
+    400146: pCube120
+    400148: pCube121
+    400150: pCube122
+    400152: pCube123
+    400154: pCube124
+    400156: pCube125
+    400158: pCube126
+    400160: pCube127
+    400162: pCube128
+    400164: Pillow1
+    400166: polySurface70
+    400168: polySurface71
+    400170: polySurface72
+    400172: polySurface73
+    400174: polySurface74
+    400176: polySurface75
+    400178: polySurface76
+    400180: polySurface77
+    400182: polySurface78
+    400184: polySurface79
+    400186: polySurface80
+    400188: polySurface81
+    400190: polySurface82
+    400192: polySurface83
+    2300000: Bed
+    2300002: Billow
+    2300004: Blanket
+    2300006: group15
+    2300008: group15 1
+    2300010: group16
+    2300012: group16 1
+    2300014: group17
+    2300016: group17 1
+    2300018: group18
+    2300020: group18 1
+    2300022: pCube102
+    2300024: pCube102 1
+    2300026: pCube103
+    2300028: pCube103 1
+    2300030: pCube104
+    2300032: pCube104 1
+    2300034: pCube105
+    2300036: pCube105 1
+    2300038: pCube106
+    2300040: pCube106 1
+    2300042: pCube107
+    2300044: pCube107 1
+    2300046: pCube108
+    2300048: pCube110
+    2300050: pCube110 1
+    2300052: pCube111
+    2300054: pCube111 1
+    2300056: Pillow
+    2300058: polySurface62
+    2300060: polySurface62 1
+    2300062: polySurface63
+    2300064: polySurface63 1
+    2300066: polySurface64
+    2300068: polySurface64 1
+    2300070: polySurface65
+    2300072: polySurface65 1
+    2300074: polySurface66
+    2300076: polySurface66 1
+    2300078: polySurface67
+    2300080: polySurface67 1
+    2300082: polySurface68
+    2300084: polySurface68 1
+    2300086: Bed1
+    2300088: Billow1
+    2300090: Blanket1
+    2300092: group19
+    2300094: group20
+    2300096: group21
+    2300098: group22
+    2300100: group23
+    2300102: group24
+    2300104: group25
+    2300106: group26
+    2300108: pCube112
+    2300110: pCube113
+    2300112: pCube114
+    2300114: pCube115
+    2300116: pCube116
+    2300118: pCube117
+    2300120: pCube118
+    2300122: pCube119
+    2300124: pCube120
+    2300126: pCube121
+    2300128: pCube122
+    2300130: pCube123
+    2300132: pCube124
+    2300134: pCube125
+    2300136: pCube126
+    2300138: pCube127
+    2300140: pCube128
+    2300142: Pillow1
+    2300144: polySurface70
+    2300146: polySurface71
+    2300148: polySurface72
+    2300150: polySurface73
+    2300152: polySurface74
+    2300154: polySurface75
+    2300156: polySurface76
+    2300158: polySurface77
+    2300160: polySurface78
+    2300162: polySurface79
+    2300164: polySurface80
+    2300166: polySurface81
+    2300168: polySurface82
+    2300170: polySurface83
+    3300000: Bed
+    3300002: Billow
+    3300004: Blanket
+    3300006: group15
+    3300008: group15 1
+    3300010: group16
+    3300012: group16 1
+    3300014: group17
+    3300016: group17 1
+    3300018: group18
+    3300020: group18 1
+    3300022: pCube102
+    3300024: pCube102 1
+    3300026: pCube103
+    3300028: pCube103 1
+    3300030: pCube104
+    3300032: pCube104 1
+    3300034: pCube105
+    3300036: pCube105 1
+    3300038: pCube106
+    3300040: pCube106 1
+    3300042: pCube107
+    3300044: pCube107 1
+    3300046: pCube108
+    3300048: pCube110
+    3300050: pCube110 1
+    3300052: pCube111
+    3300054: pCube111 1
+    3300056: Pillow
+    3300058: polySurface62
+    3300060: polySurface62 1
+    3300062: polySurface63
+    3300064: polySurface63 1
+    3300066: polySurface64
+    3300068: polySurface64 1
+    3300070: polySurface65
+    3300072: polySurface65 1
+    3300074: polySurface66
+    3300076: polySurface66 1
+    3300078: polySurface67
+    3300080: polySurface67 1
+    3300082: polySurface68
+    3300084: polySurface68 1
+    3300086: Bed1
+    3300088: Billow1
+    3300090: Blanket1
+    3300092: group19
+    3300094: group20
+    3300096: group21
+    3300098: group22
+    3300100: group23
+    3300102: group24
+    3300104: group25
+    3300106: group26
+    3300108: pCube112
+    3300110: pCube113
+    3300112: pCube114
+    3300114: pCube115
+    3300116: pCube116
+    3300118: pCube117
+    3300120: pCube118
+    3300122: pCube119
+    3300124: pCube120
+    3300126: pCube121
+    3300128: pCube122
+    3300130: pCube123
+    3300132: pCube124
+    3300134: pCube125
+    3300136: pCube126
+    3300138: pCube127
+    3300140: pCube128
+    3300142: Pillow1
+    3300144: polySurface70
+    3300146: polySurface71
+    3300148: polySurface72
+    3300150: polySurface73
+    3300152: polySurface74
+    3300154: polySurface75
+    3300156: polySurface76
+    3300158: polySurface77
+    3300160: polySurface78
+    3300162: polySurface79
+    3300164: polySurface80
+    3300166: polySurface81
+    3300168: polySurface82
+    3300170: polySurface83
+    4300000: pCube102
+    4300002: pCube103
+    4300004: pCube104
+    4300006: pCube105
+    4300008: pCube106
+    4300010: pCube107
+    4300012: pCube110
+    4300014: pCube111
+    4300016: polySurface62
+    4300018: polySurface63
+    4300020: polySurface64
+    4300022: polySurface65
+    4300024: polySurface66
+    4300026: polySurface67
+    4300028: polySurface68
+    4300030: group15
+    4300032: group16
+    4300034: group17
+    4300036: group18
+    4300038: Pillow
+    4300040: Bed
+    4300042: pCube102
+    4300044: pCube103
+    4300046: pCube104
+    4300048: pCube105
+    4300050: pCube106
+    4300052: pCube107
+    4300054: pCube108
+    4300056: pCube110
+    4300058: pCube111
+    4300060: polySurface62
+    4300062: polySurface63
+    4300064: polySurface64
+    4300066: polySurface65
+    4300068: polySurface66
+    4300070: polySurface67
+    4300072: polySurface68
+    4300074: group15
+    4300076: group16
+    4300078: group17
+    4300080: group18
+    4300082: Billow
+    4300084: Blanket
+    4300086: pCube120
+    4300088: pCube121
+    4300090: pCube122
+    4300092: pCube123
+    4300094: pCube124
+    4300096: pCube125
+    4300098: pCube126
+    4300100: pCube127
+    4300102: pCube128
+    4300104: polySurface77
+    4300106: polySurface78
+    4300108: polySurface79
+    4300110: polySurface80
+    4300112: polySurface81
+    4300114: polySurface82
+    4300116: polySurface83
+    4300118: group23
+    4300120: group24
+    4300122: group25
+    4300124: group26
+    4300126: Billow1
+    4300128: Blanket1
+    4300130: pCube112
+    4300132: pCube113
+    4300134: pCube114
+    4300136: pCube115
+    4300138: pCube116
+    4300140: pCube117
+    4300142: pCube118
+    4300144: pCube119
+    4300146: polySurface70
+    4300148: polySurface71
+    4300150: polySurface72
+    4300152: polySurface73
+    4300154: polySurface74
+    4300156: polySurface75
+    4300158: polySurface76
+    4300160: group19
+    4300162: group20
+    4300164: group21
+    4300166: group22
+    4300168: Pillow1
+    4300170: Bed1
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
