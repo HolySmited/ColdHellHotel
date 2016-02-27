@@ -6,18 +6,20 @@ public class LightMissionController : MonoBehaviour {
 
     public string Name;
     public List<GameObject> switchList;
-    public bool sentinel = true;
+    public bool sentinel = true; //this name has no meaning, only to irritate Zach
+    public GameObject candle;
     LivingMovement NPC;
 
 
     // Use this for initialization
     void Start ()
     {
-        NPC = GameObject.Find("mod_frankie_01").GetComponent<LivingMovement>();
+        NPC = GameObject.Find("Frankie_BASE").GetComponent<LivingMovement>();
 
-        foreach (GameObject light in switchList)
+        foreach (GameObject _switch in switchList)
         {
-            light.GetComponentInChildren<LightScript>().controller = this;
+            //if(_switch.GetComponentInChildren<LightScript>())
+                _switch.GetComponentInChildren<LightScript>().controller = this;
         }    
 
 	}
@@ -29,12 +31,24 @@ public class LightMissionController : MonoBehaviour {
 	}
     public void CheckLights()
     {
+        //print("are you fucking running?");
 		sentinel = true;
         foreach (GameObject _switch in switchList)
         {
-			for(int i = 0; i < _switch.transform.childCount; i++)
+            //Debug.Log(_switch+ "Switch");
+           // Debug.Log(candle + "Candle");
+            for (int i = 0; i < _switch.transform.childCount; i++)
 			{
-				if(_switch.transform.GetChild(i).gameObject.activeSelf)
+                if (_switch == candle)
+                {
+                    //Debug.Log(candle + "Candle");
+                    if (_switch.transform.GetComponent<CandleScript>().IsInRoom == true)
+                    {
+                        sentinel = false;
+                        break;
+                    }
+                }
+                else if (_switch.transform.GetChild(i).gameObject.activeSelf)
 				{
 					sentinel = false;
 					break;
@@ -50,7 +64,7 @@ public class LightMissionController : MonoBehaviour {
 
 
        // Debug.Log("test");
-		Debug.Log(sentinel);
+		//Debug.Log(sentinel);
 
 
     }
