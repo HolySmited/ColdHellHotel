@@ -17,12 +17,17 @@ public class LevelLoader : MonoBehaviour
 {
     static LevelLoader _LevelLoader;
 
+    [SerializeField]
+    Sprite controllerInfoScreen, defaultLoadingScreen;
+    Sprite activeSprite = null;
+
     int scene_GameStart = 0, scene_LoadingScreen = 1, scene_TitleScreen = 2, scene_TestLevel = 3, scene_MainLevelIntro = 4, scene_MainLevel = 5;
     GameObject LoadingScreen, LoadingScreen_ProgressText;
     public GameObject menu_Title, menu_Level, menu_LevelIntro;
 
     public string currentLevel;
 
+    Image image;
     MenuSounds menusounds;
 
     void Start()
@@ -38,7 +43,9 @@ public class LevelLoader : MonoBehaviour
 
         PCSettings.staticRef.canControlPlayer = false;
 
+        image = transform.GetChild(0).GetComponentInChildren<Image>();
         menusounds = GameObject.FindObjectOfType<MenuSounds>();
+        activeSprite = defaultLoadingScreen;
 
         lockCursor();
 
@@ -59,13 +66,15 @@ public class LevelLoader : MonoBehaviour
 
     public void loadTitleScreen()
     {
-        StartCoroutine(LoadLevel_wLS(scene_TitleScreen, false));
+        activateLoadScreen();
+        StartCoroutine(LoadLevel_wLS(scene_TitleScreen));
         disableMenus();
         menu_Title.SetActive(true);
         unlockCursor();
     }
     public void loadTestLevel()
     {
+        activateLoadScreen();
         StartCoroutine(LoadLevel_wLS(scene_TestLevel));
         disableMenus();
         menu_Level.SetActive(true);
@@ -73,13 +82,15 @@ public class LevelLoader : MonoBehaviour
     }
     public void loadMainLevelIntro()
     {
-        StartCoroutine(LoadLevel_wLS(scene_MainLevelIntro, false));
+        activateLoadScreen();
+        StartCoroutine(LoadLevel_wLS(scene_MainLevelIntro));
         disableMenus();
         menu_LevelIntro.SetActive(true);
         unlockCursor();
     }
     public void loadMainLevel()
     {
+        activateLoadScreen(controllerInfoScreen);
         StartCoroutine(LoadLevel_wLS(scene_MainLevel));
         disableMenus();
         menu_Level.SetActive(true);
@@ -92,13 +103,32 @@ public class LevelLoader : MonoBehaviour
         //  Simple Level Loader
         Application.LoadLevel(levelID);
     }
-    IEnumerator LoadLevel_wLS(int levelID, bool showProgressText = true)
+    void activateLoadScreen(Sprite altLoadingScreen = null, bool showProgressText = false)
+    {
+        LoadingScreen.SetActive(true);
+        LoadingScreen_ProgressText.SetActive(showProgressText);
+        Sprite activeSprite;
+        Color activeColor;
+
+        if (altLoadingScreen == null)
+        {
+            activeSprite = defaultLoadingScreen;
+            activeColor = Color.black;
+        }
+        else
+        {
+            activeSprite = altLoadingScreen;
+            activeColor = Color.white;
+        }
+
+        image.sprite = activeSprite;
+        image.color = activeColor;
+    }
+    IEnumerator LoadLevel_wLS(int levelID)
     {
         PCSettings.staticRef.canControlPlayer = false;
         //  Display a level loading screen while asynchronously loading the target level.
         loadLoadingScreen();    //  Load an empty scene.
-        LoadingScreen.SetActive(true);
-        LoadingScreen_ProgressText.SetActive(showProgressText);
 
         //  Variables to track level loading progress (progress history preserves the last two progress checks).
         decimal progressAverage = 0;
