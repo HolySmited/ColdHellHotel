@@ -41,14 +41,14 @@ public class LightScript : MonoBehaviour {
 
     public void TriggerAI()
     {
-        //Debug.Log("Triggered AI");
+       /*//Debug.Log("Triggered AI");
         //Debug.Log(waypoint.transform.position);
-     // if (sight.RecieveInteraction(waypoint.transform.position, investigateTime))
-     // {
-           // Debug.Log("Frankie Sighted");
-      //      ActivateComponent();
-     //  }
-     //  else { DeactivateComponent(); }
+       if (sight.RecieveInteraction(waypoint.transform.position, investigateTime))
+      {
+           //Debug.Log("Frankie Sighted");
+            ActivateComponent();
+       }
+      else { DeactivateComponent(); }*/
     }
  
     
