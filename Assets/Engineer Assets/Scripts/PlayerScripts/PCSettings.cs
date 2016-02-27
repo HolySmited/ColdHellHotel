@@ -4,9 +4,6 @@
     Description:
     Contains and manages the settings which define various player-related activities.
     E.g., movement speeds, mouse-sensitivity, etc.
-
-    Contains additional cursor-functionality, allowing the displaying/hiding of the cursor.
-    Toggable with F1.
 */
 
 using UnityEngine;
@@ -17,25 +14,6 @@ public class PCSettings : MonoBehaviour
     public static PCSettings staticRef;
     void Awake() {if(staticRef == null) staticRef = this; }
 
-	void Start()
-	{
-		Cursor.lockState = CursorLockMode.Locked;
-		Cursor.visible = false;
-	}
-
-    void Update()
-    {
-        //  Cursor Visibility
-        if (Input.GetKeyDown(KeyCode.F1))
-        {
-            if (Cursor.lockState != CursorLockMode.None)
-                Cursor.lockState = CursorLockMode.None;
-            else
-                Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = (CursorLockMode.Locked != Cursor.lockState);
-        }
-    }
-
     //  Player Collider Layer
     public LayerMask ignoredCollisionsLM = 16128; //  used to set what the player can/cannot collide with
     //  Renderer Layer
@@ -43,6 +21,7 @@ public class PCSettings : MonoBehaviour
     //  Interaction Layer
     public LayerMask interactableObjectsLM = 2048; //  used to filter-out non-interactable objects for raycasting
 
+    public Vector3 spawnpoint = new Vector3();
     //  Player Controller Settings
     public bool canControlPlayer = true;
     //  Player Movement Settings
@@ -57,7 +36,7 @@ public class PCSettings : MonoBehaviour
         }
         set {
             _altitudeSoftLock = GetComponent<Rigidbody>().useGravity = value;
-            Physics.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Level"), false);
+            Physics.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Level"), value);
         }
     }
 
