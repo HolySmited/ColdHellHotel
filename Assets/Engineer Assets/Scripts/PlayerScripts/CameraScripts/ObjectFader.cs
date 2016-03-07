@@ -12,7 +12,7 @@ using System.Collections.Generic;
 
 public class ObjectFader : MonoBehaviour
 {
-  /*  void FixedUpdate()
+/*    void FixedUpdate()
     {
         objectFade();
         //objectClipCoverup();
